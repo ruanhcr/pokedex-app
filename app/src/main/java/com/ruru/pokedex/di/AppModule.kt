@@ -1,7 +1,7 @@
 package com.ruru.pokedex.di
 
 import com.ruru.pokedex.data.remote.PokeApi
-import com.ruru.pokedex.repository.PokemonRepository
+import com.ruru.pokedex.feature.repository.PokemonRepository
 import com.ruru.pokedex.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides

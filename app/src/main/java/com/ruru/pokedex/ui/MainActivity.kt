@@ -10,8 +10,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.ruru.pokedex.pokemondetail.PokemonDetailScreen
-import com.ruru.pokedex.pokemonlist.PokemonListScreen
+import com.ruru.pokedex.feature.pokemondetail.PokemonDetailScreen
+import com.ruru.pokedex.feature.pokemonlist.PokemonListScreen
 import com.ruru.pokedex.ui.theme.JetpackComposePokedexTheme
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.*

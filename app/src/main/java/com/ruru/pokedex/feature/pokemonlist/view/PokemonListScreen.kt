@@ -1,10 +1,9 @@
-package com.ruru.pokedex.pokemonlist
+package com.ruru.pokedex.feature.pokemonlist
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.layout.Arrangement.Absolute.Center
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -14,7 +13,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.Alignment.Companion.Center
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -24,7 +22,6 @@ import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
@@ -34,12 +31,9 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.ImagePainter
 import coil.compose.rememberImagePainter
-import coil.request.ImageRequest
-import com.google.accompanist.coil.CoilImage
 import com.ruru.pokedex.R
 import com.ruru.pokedex.data.models.PokedexListEntry
-import com.ruru.pokedex.ui.theme.Roboto
-import com.ruru.pokedex.ui.theme.RobotoCondensed
+import com.ruru.pokedex.feature.pokemonlist.viewmodel.PokemonListViewModel
 
 @Composable
 fun PokemonListScreen(
@@ -142,7 +136,7 @@ fun PokemonList(
         }
     }
 
-    Box (
+    Box(
         contentAlignment = Alignment.Center,
         modifier = Modifier.fillMaxSize()
             ) {

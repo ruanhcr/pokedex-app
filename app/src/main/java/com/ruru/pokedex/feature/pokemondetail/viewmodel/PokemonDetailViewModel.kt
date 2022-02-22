@@ -1,8 +1,8 @@
-package com.ruru.pokedex.pokemondetail
+package com.ruru.pokedex.feature.pokemondetail.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.ruru.pokedex.data.remote.responses.Pokemon
-import com.ruru.pokedex.repository.PokemonRepository
+import com.ruru.pokedex.feature.repository.PokemonRepository
 import com.ruru.pokedex.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

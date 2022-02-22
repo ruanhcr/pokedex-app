@@ -1,4 +1,4 @@
-package com.ruru.pokedex.repository
+package com.ruru.pokedex.feature.repository
 
 import com.ruru.pokedex.data.remote.PokeApi
 import com.ruru.pokedex.data.remote.responses.Pokemon

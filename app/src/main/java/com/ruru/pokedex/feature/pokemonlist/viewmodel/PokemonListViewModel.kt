@@ -1,4 +1,4 @@
-package com.ruru.pokedex.pokemonlist
+package com.ruru.pokedex.feature.pokemonlist.viewmodel
 
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.palette.graphics.Palette
 import com.ruru.pokedex.data.models.PokedexListEntry
-import com.ruru.pokedex.repository.PokemonRepository
+import com.ruru.pokedex.feature.repository.PokemonRepository
 import com.ruru.pokedex.util.Constants.PAGE_SIZE
 import com.ruru.pokedex.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel

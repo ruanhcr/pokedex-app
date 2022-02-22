@@ -1,7 +1,6 @@
-package com.ruru.pokedex.pokemonlist
+package com.ruru.pokedex.feature.pokemonlist
 
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.Typeface
 import com.ruru.pokedex.data.remote.responses.Stat
 import com.ruru.pokedex.data.remote.responses.Type
 import com.ruru.pokedex.ui.theme.*

@@ -1,10 +1,7 @@
-package com.ruru.pokedex.pokemondetail
+package com.ruru.pokedex.feature.pokemondetail
 
-import android.graphics.Paint
-import android.widget.AlphabetIndexer
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
-import androidx.compose.animation.fadeIn
 import androidx.compose.foundation.*
 import com.ruru.pokedex.R
 import androidx.compose.foundation.layout.*
@@ -28,7 +25,6 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.text.capitalize
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
@@ -39,9 +35,10 @@ import androidx.navigation.NavController
 import coil.compose.rememberImagePainter
 import com.ruru.pokedex.data.remote.responses.Pokemon
 import com.ruru.pokedex.data.remote.responses.Type
-import com.ruru.pokedex.pokemonlist.parseStatToAbbr
-import com.ruru.pokedex.pokemonlist.parseStatToColor
-import com.ruru.pokedex.pokemonlist.parseTypeTocolor
+import com.ruru.pokedex.feature.pokemondetail.viewmodel.PokemonDetailViewModel
+import com.ruru.pokedex.feature.pokemonlist.parseStatToAbbr
+import com.ruru.pokedex.feature.pokemonlist.parseStatToColor
+import com.ruru.pokedex.feature.pokemonlist.parseTypeTocolor
 import com.ruru.pokedex.util.Resource
 import java.util.*
 import kotlin.math.round
