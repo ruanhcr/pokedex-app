@@ -7,3 +7,5 @@ GET NAME para exibir os detalhes de cada pokemon assim que clicado.
 <br>O projeto é feito na arquitetura MVVM, com injeção de dependência através do [Hilt](https://developer.android.com/training/dependency-injection/hilt-android?hl=pt-br), Escôpos de [Coroutines](https://developer.android.com/topic/libraries/architecture/coroutines?hl=pt-br) do Kotlin, 
 conceitos de paginação, onde são carregados 20 pokemons por vez.
 <br>A exibição das imagens é feita através do [Coil](https://coil-kt.github.io/coil/compose/).
+
+<br>![Exemplo](https://media0.giphy.com/media/pRWBeLoPUSVuWKITdS/giphy.gif?cid=790b7611c53d3ef098674964d8f3887e7613897203efac46&rid=giphy.gif&ct=g)
