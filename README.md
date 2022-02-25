@@ -6,8 +6,7 @@ GET NAME para exibir os detalhes de cada pokemon assim que feito o evento de cli
 # Development Roadmap
 - [x] [Kotlin](https://kotlinlang.org)
 - [x] [Poke API](https://pokeapi.co)
-- [x] [MVVM](https://developer.android.com/jetpack/guide?gclid=Cj0KCQiAmeKQBhDvARIsAHJ7mF6MdF2s4IswETMBPtxSUHxGehXBfDoGpp4mJaGe4w5tI2VNcTSr5O8aAgDOEALw_wcB&gclsrc=aw.ds)
-- [x] [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel?authuser=1)
+- [x] MVVM
 - [x] [Jetpack Compose](https://developer.android.com/jetpack/compose?gclid=Cj0KCQiAjc2QBhDgARIsAMc3SqTYARdVHuvelbQNF7urntfb8whp3pIteUTtx-hDggTKElvKysOKixwaAqmGEALw_wcB&gclsrc=aw.ds&authuser=1) 
 - [x] [Retrofit](https://square.github.io/retrofit/)
 - [x] [Coroutines](https://developer.android.com/topic/libraries/architecture/coroutines?hl=pt-br)
