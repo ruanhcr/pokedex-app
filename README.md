@@ -1,5 +1,5 @@
 # Pokedex App
-App que exibe a Pokedex atravé da Poke API onde são feitas requisições [GET POKEMON](https://pokeapi.co/api/v2/pokemon) do tipo PokemonList para exibir a lista da Pokedex e também
+App que exibe a Pokedex através da Poke API onde são feitas requisições [GET POKEMON](https://pokeapi.co/api/v2/pokemon) do tipo PokemonList para exibir a lista da Pokedex e também
 GET NAME para exibir os detalhes de cada pokemon assim que feito o evento de click.
 
 # Development Roadmap
