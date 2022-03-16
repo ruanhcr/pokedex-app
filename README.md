@@ -22,7 +22,7 @@ GET NAME para exibir os detalhes de cada pokemon assim que feito o evento de cli
 <br>![Exemplo](https://media0.giphy.com/media/pRWBeLoPUSVuWKITdS/giphy.gif?cid=790b7611c53d3ef098674964d8f3887e7613897203efac46&rid=giphy.gif&ct=g)
 
 # TO DO
-<br>Este projeto está em andamento, sendo necessário adicionar:
+Este projeto está em andamento, sendo necessário adicionar:
 - [x] Testes unitários
 - [x] Testes de Instrumentação
 - [x] CI/CD
